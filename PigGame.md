@@ -1,8 +1,9 @@
  //  # Daniel-Sastre-PigGame
 Daniel Sastre APCS PigGame Lab //
-import java.util.*; //importing all java packages because i do not want to write to separate ones :v
- 
- 
+
+
+import java.util.*; //importing all java packages because i do not want to write two separate ones :v
+
 public class playGame{
      
     public static void main(String[] args){
@@ -23,7 +24,7 @@ public class playGame{
       
          
   
-            while(!(playerScore >= 100 || player2Score >= 100)) //I used a giant while loop to be the entire, only to be broken when a player gets more than 100 points.
+            while(!(playerScore >= 100 || player2Score >= 100)) //I used a giant while loop to be the entire game, only to be broken when a player gets more than 100 points.
             {
                 System.out.println("Player 1 turn");
                 System.out.print("Press any button to roll: ");
@@ -87,7 +88,7 @@ public class playGame{
                                             
             }// while loop to simulate the game end here. It should break only when either player 1 or player 2 gets 100 points.
             
-            if(playerScore > player2Score){ // finally, we only tell the players who won. I used an if else statement. The player with more point should win as that player must have gotten to 100 to end the game.
+            if(playerScore > player2Score){ // finally, we only tell the players who won. I used an if else statement. The player with more points should win as that player must have gotten to 100 to end the game.
 				System.out.println("Player 1 is the winner!");
                 }
                 
